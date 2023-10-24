@@ -1,0 +1,49 @@
+.test,
+.hello {
+ color: #cf2a8a;
+}
+h2.test.hello.eee {
+  text-decoration: none;
+  color: aqua;
+  text-align: center;
+}
+p[contenteditable="true"] {
+ font-family:fantasy;
+ font-style: italic;
+ color: #ce2200;
+ font-size: large;
+}
+
+a {
+    color: #000000;  
+    text-decoration: none; 
+}
+a:visited {
+    color: #2a1de0; 
+} 
+a:hover {
+    color: #ce2200;   
+    text-decoration: underline;
+}
+
+table {
+	width:80%;
+	background-color:rgb(18, 190, 202);
+	color:rgb(0, 0, 0);
+}
+tr:nth-child(2n) {
+	background-color:rgb(163, 148, 7);
+}
+
+.table-text {
+    font-size:x-large;
+    color: bisque;
+}
+
+th { 
+    background: rgb(219, 12, 12); 
+    text-align: left; 
+   }
+   td {
+    color: bisque;
+   }
